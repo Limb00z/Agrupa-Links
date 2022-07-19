@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 *{  color: #fff;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     margin: 0;
     padding: 0;
 }
 body{
-    background: url(./imagens/bg.jpg) no-repeat center center fixed;
+    /* background: url(./imagens/bg.jpg) no-repeat center center fixed; */
     background-size: cover;
+    background: rgb(0, 0, 0);
+}
+
+#vanta{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 header{
@@ -20,16 +34,16 @@ header{
     border-radius: 50px;
     border: 4px solid #fff;
     box-shadow: rgb(28, 32, 93 / 24%) 0 2px 8px 0;
-    height: 20em;
-    width: 20em;
+    height: 17em;
+    width: 17em;
     margin-bottom: 1em;
 }
 
 .titulo{
-    background-color: #000a;
+    background-color: whitesmoke;
     border-radius: 1em;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 5px solid rgb(3, 121, 255);
+    color: rgb(7, 14, 102);
     display: inline-block;
     font-weight: bold;
     padding: 0.3em 0.6em;
@@ -50,10 +64,16 @@ header{
 }
 
 .listas__link{
-    color: black;
+    color: rgb(0, 0, 0);
+    text-shadow: blue 1px 1px 20px;
     text-decoration: none;
+    font-size: .9em;
 }
 
 .riscado{
     text-decoration: line-through;
+}
+
+.listas__icones{
+    
 }
