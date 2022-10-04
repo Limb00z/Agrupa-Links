@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    /* background: url(./imagens/bg.jpg) no-repeat center center fixed; */
+    background: url(./imagens/bg.jpg) no-repeat center center fixed;
     background-size: cover;
     background: rgb(0, 0, 0);
 }
